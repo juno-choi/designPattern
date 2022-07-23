@@ -5,6 +5,9 @@ public class Client {
     public static void main(String[] args) {
         Ship whiteship = new WhiteShipFactory().orderShip("WhiteShip", "juno@mail.com");
         System.out.println(whiteship);
+
+        Ship black = new BlackShipFactory().orderShip("BlackShip", "juno@mail.com");
+        System.out.println(black);
     }
 
 }
