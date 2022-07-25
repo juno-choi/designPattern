@@ -3,11 +3,12 @@ package com.example.design.factory;
 public class Client {
 
     public static void main(String[] args) {
-        Ship whiteship = new WhiteShipFactory().orderShip("WhiteShip", "juno@mail.com");
-        System.out.println(whiteship);
-
-        Ship black = new BlackShipFactory().orderShip("BlackShip", "juno@mail.com");
-        System.out.println(black);
+        Client client = new Client();
+        client.print(new WhiteShipFactory(), "WhiteShip", "juno@mail.com");
+        client.print(new BlackShipFactory(), "BlackShip", "juno@mail.com");
     }
 
+    private void print(ShipFactory shipFactory, String name, String email){
+        System.out.println(shipFactory.orderShip(name, email));
+    }
 }
