@@ -9,6 +9,8 @@ public interface ShipFactory {
         return ship;
     }
 
+    void sendEmailTo(String email, Ship ship);
+
     //상속받은 하위 class에서 구현해야함.
     Ship createShip();
 
@@ -26,7 +28,7 @@ public interface ShipFactory {
         System.out.println(name + " 만들 준비 중");
     }
 
-    private void sendEmailTo(String email, Ship ship) {
-        System.out.println(ship.getName() + " 다 만들었습니다.");
-    }
+//    private void sendEmailTo(String email, Ship ship) {
+//        System.out.println(ship.getName() + " 다 만들었습니다.");
+//    }
 }
