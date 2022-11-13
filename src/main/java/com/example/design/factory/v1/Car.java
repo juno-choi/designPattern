@@ -1,43 +1,40 @@
-package com.example.design.factory;
+package com.example.design.factory.v1;
 
-public class Ship {
-
+public class Car {
+    private String owner;
     private String name;
-
     private String color;
-
     private String logo;
+    private String engine;
 
-    public String getName() {
-        return name;
+    public void setOwner(String owner) {
+        this.owner = owner;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getColor() {
-        return color;
-    }
-
     public void setColor(String color) {
         this.color = color;
-    }
-
-    public String getLogo() {
-        return logo;
     }
 
     public void setLogo(String logo) {
         this.logo = logo;
     }
 
+    public void setEngine(String engine) {
+        this.engine = engine;
+    }
+
     @Override
     public String toString() {
-        return "Ship{" +
-                "name='" + name + '\'' +
+        return "Car{" +
+                "owner='" + owner + '\'' +
+                ", name='" + name + '\'' +
                 ", color='" + color + '\'' +
                 ", logo='" + logo + '\'' +
+                ", engine='" + engine + '\'' +
                 '}';
     }
 }
