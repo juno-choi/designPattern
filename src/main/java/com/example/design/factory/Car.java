@@ -6,6 +6,7 @@ public class Car {
     private String color;
     private String logo;
     private String engine;
+    private String navi;
 
     public void setOwner(String owner) {
         this.owner = owner;
@@ -47,6 +48,14 @@ public class Car {
         return engine;
     }
 
+    public String getNavi() {
+        return navi;
+    }
+
+    public void setNavi(String navi) {
+        this.navi = navi;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
@@ -55,6 +64,7 @@ public class Car {
                 ", color='" + color + '\'' +
                 ", logo='" + logo + '\'' +
                 ", engine='" + engine + '\'' +
+                ", navi='" + navi + '\'' +
                 '}';
     }
 }

@@ -25,6 +25,7 @@ public interface CarFactory {
     private void settingCar(Car car, String owner, String color){
         car.setOwner(owner);
         car.setColor(color);
+        car.setNavi("Kakao Navi");
     }
 
     private void complete(Car car){
