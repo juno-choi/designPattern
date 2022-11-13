@@ -1,5 +1,7 @@
 package com.example.design.factory.v1;
 
+import com.example.design.factory.Car;
+
 public class AvanteFactory {
 
     public static Car createCar(String owner, String color){

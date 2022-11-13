@@ -1,4 +1,4 @@
-package com.example.design.factory.v1;
+package com.example.design.factory;
 
 public class Car {
     private String owner;
@@ -25,6 +25,26 @@ public class Car {
 
     public void setEngine(String engine) {
         this.engine = engine;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public String getEngine() {
+        return engine;
     }
 
     @Override
