@@ -40,7 +40,7 @@ public class House {
 
     @Override
     public String toString() {
-        return "BeforePattern{" +
+        return "House{" +
                 "elevator='" + elevator + '\'' +
                 ", window='" + window + '\'' +
                 ", park='" + park + '\'' +

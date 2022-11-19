@@ -7,3 +7,4 @@
 - [Singleton Pattern](https://velog.io/@ililil9482/Singleton-Pattern)
 - [Factory Method Pattern](https://velog.io/@ililil9482/Factory-Method-Pattern)
 - [Abstract Factory Pattern](https://velog.io/@ililil9482/Abstract-Factory-Pattern)
+- [Builder Pattern](https://velog.io/@ililil9482/Builder-Pattern)
