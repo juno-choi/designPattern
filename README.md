@@ -9,3 +9,6 @@
 - [Abstract Factory Pattern](https://velog.io/@ililil9482/Abstract-Factory-Pattern)
 - [Builder Pattern](https://velog.io/@ililil9482/Builder-Pattern)
 - [Prototype Pattern](https://velog.io/@ililil9482/Prototype-Pattern)
+
+### 구조관련 디자인 패턴
+- [Adapter Pattern](https://velog.io/@ililil9482/Adapter-Pattern)
